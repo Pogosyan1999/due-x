@@ -1,0 +1,37 @@
+.item span {
+background: url('./img/umbrella.png') ;
+background-position: center;
+background-size: cover;
+}
+
+.activeItem span {
+   background: url('./img/activeUmbrella.png') ;
+   background-position: center;
+   background-size: cover;
+  
+  }
+
+  .activeItem {
+    border-bottom: 2px solid var(--color-light-blue);
+  }
+
+  .activeItem p{
+    color:var(--color-light-blue);
+    font-family: NimbusBold;
+  }
+
+  .content{
+    display: none;
+  }
+
+  .contentActive{
+    display: block;
+  }
+
+  @media  only screen and (max-width:768px) {
+    .activeItem {
+      border-bottom: none;
+    }
+  }
+
+ 

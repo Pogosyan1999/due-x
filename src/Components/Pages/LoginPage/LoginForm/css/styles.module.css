@@ -1,0 +1,72 @@
+.form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.header{
+  width:100%;
+  margin-top: -40px;
+ 
+}
+
+
+
+
+.inputBlog {
+  width: 60%;
+  margin-bottom: 20px;
+  margin: 10px auto;
+}
+
+
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #d1d1d1;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+}
+
+.inputContainer input{
+    width:91%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.icon{
+    width:max-content;
+    
+}
+.inputBlog label {
+  font-size: 14px;
+}
+
+.footerText {
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+.footerText a {
+  color: var(--color-light-blue);
+}
+
+.btnDiv{
+  width:100%;
+  
+}
+
+.btnDiv button{
+  cursor: not-allowed !important;
+}

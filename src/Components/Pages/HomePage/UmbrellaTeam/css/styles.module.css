@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.minTitle{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.div {
+    width: max-content;
+}
+
+.blog {
+    width: 23%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #f3f3f3;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    
+   
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgContainer:hover .socialContainer{
+    width: 80%;
+    height: 40px;
+    padding: 10px 0;
+    box-sizing:border-box;
+}
+
+
+
+
+.socialContainer {
+    width:0;
+    height: 0;
+    background: #0E59F2;
+    border-radius: 5px 5px 0px 0px;
+    display:flex;
+    justify-content: space-around;
+
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    transform: translate(-50%);
+    transition: 0.5s;
+}
+
+.socialContainer a {
+    color: var(--color-white);
+    font-size: 17px;
+    display: block;
+}
+
+.socialContainer a:hover {
+    color: var(--color-light-blue);
+    transition: .5s;
+}
+
+.name {
+    font-size: 18px;
+    color: #1c1f25;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text {
+    text-align: center;
+    color: var(--color-light-blue);
+    font-size: 16px;
+    font-weight: 600;
+}

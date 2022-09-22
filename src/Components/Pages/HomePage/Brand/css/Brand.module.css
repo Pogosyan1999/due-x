@@ -1,0 +1,18 @@
+.container{
+width:100%;
+height:auto;
+padding-top:120px;
+padding-bottom:200px;
+background:url('../img/brandBg.png'); 
+background-size: cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+.blog{
+    width:16%;
+}
+
+.blog img{
+    width:100%;
+}

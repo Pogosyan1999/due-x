@@ -1,0 +1,113 @@
+@media only screen and (max-width:1180px) {
+    .blog h3 {
+        font-size: 20px;
+    }
+
+    .blog a {
+        font-size: 14px;
+    }
+
+   
+}
+
+@media only screen and (max-width:1024px) {
+    .blog  {
+        width:32%;
+    }
+
+    .blog h3 {
+        font-size: 18px;
+    }
+
+   
+}
+
+@media only screen and (max-width:950px) {
+
+    .blog h3 {
+        font-size: 16px;
+    }
+
+    .blog a {
+        font-size: 12px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width:900px) {
+
+    .blog  {
+       width:48%
+    }
+
+    .blog h3 {
+        font-size: 20px;
+    }
+
+    .blog a {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+
+  
+
+    .blog h3 {
+        font-size: 16px;
+    }
+
+    .blog a {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:660px) {
+    .blog{
+        width:80%;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .blog:hover{
+        margin-top: 10px;
+        background-color: var(--color-white);
+     }
+
+    .blog h3 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .blog a {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    .blog{
+        width:90%;
+      
+    }
+
+  
+
+    
+
+}
+
+@media only screen and (max-width:360px) {
+    .blog{
+        width:100%;
+    }
+
+    .blog a{
+        line-height: 20px;
+    }
+
+}

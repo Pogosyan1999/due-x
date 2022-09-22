@@ -1,0 +1,51 @@
+@media only screen and (max-width:1180px){
+    .text,.blog a{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .text,.blog a{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .blog{
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (max-width:860px){
+    .blog{
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .blog{
+        width:45%;
+        margin:0 auto 30px;
+        text-align: center;
+        padding-right: 0;
+    }
+}
+
+
+@media only screen and (max-width:660px){
+    .blog a, .text{
+         font-size:13px;
+    }
+}
+
+
+@media only screen and (max-width:550px){
+ .blog{
+    width:100%;
+    padding:20px;
+ }
+
+ .text, .blog a{
+    font-size:12px;
+ }
+}

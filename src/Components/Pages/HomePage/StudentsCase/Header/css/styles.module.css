@@ -1,0 +1,27 @@
+.minTitle {
+    color: var(--color-white);
+    font-weight: 100;
+    font-style: italic;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'NimbusBold';
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--color-light-blue);
+}
+
+.text {
+    font-size: 16px;
+    color: var(--color-light-grey);
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}

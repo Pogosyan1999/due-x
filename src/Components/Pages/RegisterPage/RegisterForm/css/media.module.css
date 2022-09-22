@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1200px) {
+ 
+
+  .imgContainer {
+    width: 60px;
+    height: 60px;
+  }
+
+  .upload label,
+  .selectBlog label,
+  .inputBlog label {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+    .inputBlog input{
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .selectBlog {
+       height: 45px;
+       margin-bottom: 40px;
+      }
+  }
+
+  @media only screen and (max-width: 1024px) {
+  
+
+    .footerText{
+        font-size: 12px;
+    }
+  }
+
+ 
+   
+  
+
+  @media only screen and (max-width: 768px) {
+   
+    .upload label,
+    .selectBlog label,
+    .inputBlog label {
+      font-size: 12px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 660px) {
+    .imgContainer{
+        width:50px;
+        height:50px;
+    }
+
+  }
+
+  @media only screen and (max-width: 550px) {
+    
+ .inputBlog{
+    width:100%;
+ }
+
+ .inputBlog input{
+    font-size: 12px;
+ }
+
+ 
+
+.selectBlog{
+    width:33%
+}
+
+.selectBlog select{
+    font-size: 12px;
+}
+
+ 
+  }
+
+  
+ 
+
+  
+   
+

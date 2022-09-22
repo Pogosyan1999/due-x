@@ -1,0 +1,39 @@
+@media screen and (max-device-width: 992px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .col1 {
+        clip-path: inset(0 0 0 0);
+    }
+
+    .col2 {
+        clip-path: inset(0 0 0 0);
+        margin-left: 0px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-device-width: 660px) {
+  
+    .col2 {
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-device-width: 600px) {
+  
+    .col1 {
+        padding:30px 20px;
+    }
+}
+
+@media screen and (max-device-width: 360px) {
+  
+    .col2 {
+        height: 200px;
+    }
+}
+

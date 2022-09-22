@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:150px;
+    padding-top: 80px;
+}
+
+.container button{
+    cursor: no-drop;
+}
+
+
+
+.icon svg{
+   font-size: 80px;
+   color:var(--color-light-blue)
+}
+
+.text{
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    font-weight: bold;
+}

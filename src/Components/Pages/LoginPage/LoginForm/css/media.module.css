@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1200px) {
+
+
+  .inputBlog label {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+    .inputBlog {
+        font-size: 13px;
+    }
+
+   
+  }
+
+  @media only screen and (max-width: 1024px) {
+   
+    .footerText{
+        font-size: 12px;
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+  
+    .inputBlog label {
+      font-size: 12px;
+    }
+
+
+  }
+
+ 
+
+  @media only screen and (max-width: 550px) {
+    
+ .inputBlog{
+    width:100%;
+ }
+
+ .inputBlog input{
+    font-size: 12px;
+ }
+
+
+
+
+
+  }
+
+ 

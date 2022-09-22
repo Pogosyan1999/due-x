@@ -1,0 +1,23 @@
+.container{
+width:100%;
+padding: 50px 0;
+margin-top:100px;
+background:url('../img/image.png');
+background-size:cover;
+}
+
+.titleContainer{
+    width:100%;
+    margin-bottom:50px;
+}
+
+.blog{
+    width:17%;
+    margin-bottom:50px;
+}
+
+.blog img {
+    width:100%;
+}
+
+

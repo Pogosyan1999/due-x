@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.text {
+    width: 75%;
+    line-height: 25px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #858585;
+    font-weight: 600;
+    text-align: center;
+}
+
+.link{
+    color:var(--color-blue);
+    text-decoration:underline;
+}
+
+.imgContainer{
+    width:30%;
+    height:auto;
+    margin: 60px auto;
+}
+
+.imgContainer img{
+    width:100%;
+}

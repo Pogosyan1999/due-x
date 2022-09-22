@@ -1,0 +1,129 @@
+@media only screen and (max-width:1180px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .blog {
+        padding: 30px 20px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:950px) {
+
+    .blog {
+        font-size: 16px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width:900px) {
+    .blog{
+        width:48%;
+        margin: 10px auto;
+    }
+
+   
+}
+
+
+@media only screen and (max-width:660px) {
+
+    .container {
+        margin-top: -140px;
+        text-align: center;
+    }
+
+    .blog{
+        width:80%;
+        margin: 10px auto;
+    }
+
+
+    .blog:hover{
+        margin-top: 10px;
+        background-color: var(--color-white);
+    }
+
+
+    .title {
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 11px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .blog {
+        width: 90%;
+        text-align: center;
+    }
+
+  
+
+}
+
+
+
+@media only screen and (max-width:360px) {
+
+    .blog {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+   
+
+    .btn {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:320px) {
+
+    .text {
+        font-size: 11px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+}

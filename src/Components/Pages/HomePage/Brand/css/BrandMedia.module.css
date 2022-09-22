@@ -1,0 +1,42 @@
+@media only screen and (max-width:768px){
+    .blog{
+        width:33%;
+        display:flex;
+        justify-content:center;
+        padding-bottom:40px;
+    }
+
+    .blog img{
+        width:65%;
+    }
+}
+
+@media only screen and (max-width:660px){
+    .blog{
+        width:45%;
+        margin:0 auto;
+    }
+
+    .blog img{
+        width:50%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .blog{
+        width:100%;
+      
+    }
+
+    .blog img{
+        width:40%;
+    }
+
+}
+@media only screen and (max-width:360px){
+   
+    .blog img{
+        width:50%;
+    }
+
+}

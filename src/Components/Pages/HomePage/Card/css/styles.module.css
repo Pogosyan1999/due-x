@@ -1,0 +1,50 @@
+.container {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.col1,
+.col2 {
+    width: 40%;
+}
+
+.imgContainer {
+    width: 60%;
+}
+
+ img {
+    width: 100%;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-black);
+    margin-top: 25px;
+}
+
+.text span {
+    font-weight: 700;
+}
+
+.list {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.item span {
+    width: 5%;
+    display: block;
+}
+
+.item p {
+    width: 90%;
+    font-size: 18px;
+}

@@ -1,0 +1,31 @@
+.RegisterContainer .slick-arrow,
+.LoginContainer .slick-arrow {
+    display: none !important;
+}
+
+.RegisterContainer .slick-dots li button,
+.LoginContainer .slick-dots li button {
+    margin-top: 50px !important;
+
+}
+
+.RegisterContainer .slick-dots .slick-active button::before,
+.LoginContainer .slick-dots .slick-active button::before {
+    content: '';
+    width: 10px !important;
+    height: 10px !important;
+    background-color: var(--color-white) !important;
+    border-radius: 50% !important;
+
+}
+
+.RegisterContainer .slick-dots li button::before,
+.LoginContainer .slick-dots li button::before {
+    content: '';
+    width: 10px !important;
+    height: 10px !important;
+    background-color: transparent !important;
+    border-radius: 50% !important;
+    border: 2px solid var(--color-white) !important;
+
+}
