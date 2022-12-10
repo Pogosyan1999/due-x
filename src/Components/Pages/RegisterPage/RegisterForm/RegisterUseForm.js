@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import img from "./img/user.png";
 
-const RegisterUseForm = (registerValidate) => {
+const RegisterUseForm = (callback,registerValidate, ) => {
   const [photo, setPhoto] = useState(img);
   const [data, setData] = useState([]);
   const [submit,setSubmit] = useState(false);
@@ -67,14 +67,21 @@ const RegisterUseForm = (registerValidate) => {
     setSubmit(true);
   };
 
+
+  useEffect(()=>{
+    if(Object.keys(errors).length === 0 && submit){
+      callback();
+    }
+  }, [errors])
+
   return {
     handleChange,
     values,
-   
+    submit,
     UploadPhoto,
     photo,
     getState,
-    handleSubmit,
+     handleSubmit,
     errors,
     data,
     country,

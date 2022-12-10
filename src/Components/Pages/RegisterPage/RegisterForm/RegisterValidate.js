@@ -56,7 +56,6 @@ function RegisterValidate(values) {
 
     //confirm password validate
     
-
     if(!values.confirmPassword.trim()){
       errors.confirmPassword = "Confirm Password requared";
     }else if(values.password !== values.confirmPassword){
@@ -66,7 +65,6 @@ function RegisterValidate(values) {
 
     
   
-   
   
     return errors;
   }

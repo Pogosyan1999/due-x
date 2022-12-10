@@ -3,10 +3,10 @@ import FormSuccess from "./FormSuccess/FormSuccess";
 import RegisterForm from "./RegisterForm/RegisterForm";
 
 const Form = () => {
-  const [submited, setSubmited] = useState();
+  const [submited, setSubmited] = useState(false);
 
   const submitForm = () => {
-    setSubmited(!submited);
+    setSubmited(true);
   };
 
   return (
